@@ -79,3 +79,50 @@ ul li {
 .buttons button:hover {
     background-color: #2980b9;
 }
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;   
+   height: 200px;
+   align-items: center;
+   position: relative;
+}
+.reservados {
+font-size: 20px;
+text-align: center;
+margin-top: 10px;
+}
+.footer-content {
+max-width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-links {
+margin-top: 10px;
+}
+
+.footer-links h4 {
+margin-bottom: 10px;
+}
+
+.footer-links ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links ul li {
+margin: 5px 0;
+}
+
+.footer-links ul li a {
+color: white;
+text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+text-decoration: underline;
+}
