@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-header">
+            <img src="assets/img/logo.png" alt="Logo de la tienda">
+        </div>
+        <div class="search">
+            <input type="search" placeholder="Buscar">
+        </div>
+        <div class="container-menu">
+            <div class="menu">
+                <input type="checkbox" id="check_menu">
+                <label id="#label:check" for="check_menu">
+                    <i class="fas fa-bars icon_menu"></i>
+                </label>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#">Tecnologia</a>
+                            <ul>
+                                <li><a href="#">Notebooks</a></li>
+                                <li><a href="#">Celulares</a></li>
+                                <li><a href="#">Tablets</a></li>
+                                <li><a href="#">Consolas</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Hardware</a>
+                            <ul>
+                                <li><a href="#">Placas madre</a></li>
+                                <li><a href="#">Procesadores</a></li>
+                                <li><a href="#">Tarjetas de Video</a></li>
+                                <li><a href="#">Ram</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Perifericos</a>
+                            <ul>
+                                <li><a href="#">Teclados</a></li>
+                                <li><a href="#">Mouse</a></li>
+                                <li><a href="#">Monitores</a></li>
+                                <li><a href="#">Audifonos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Contáctanos</h1>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="reservados">© 2025 Tienda de Componentes de Computadora. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#quienes-somos">Quienes Somos</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <p class="reservados ">� 2025 Tienda de Componentes de Computadora. Todos los derechos reservados.</p>
+        
+        <div class="footer-content">
+         
+          <div class="footer-links">
+              <h4>About Us</h4>
+              <ul>
+                  <li><a href="quienes-somos.html">Quienes Somos</a></li>
+                  <li><a href="contacto.html">Cont�ctanos</a></li>
+              </ul>
+          </div>
+      </div>
+    </footer>
+</body>
+</html>
